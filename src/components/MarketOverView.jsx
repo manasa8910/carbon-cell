@@ -75,14 +75,14 @@ function MarketOverView() {
 
   return (
     <>
-      <div className="md:w-1/2 w-2/3 m-7 bg-[#1A1E1C] p-5 rounded-lg flex flex-col text-white">
+      <div className="w-[300px] lg:w-[600px] h-min m-auto md:m-7 bg-[#1A1E1C] p-5 rounded-lg flex flex-col text-white">
         <div className="flex items-center">
           <h2 className="flex-1">Market Overview</h2>
-          <p className="text-sm  mx-2">NBST</p>
-          <p className="text-sm text-gray-600 mx-2">EFT</p>
-          <p className="text-sm text-gray-600 mx-2">WPCT</p>
-          <p className="text-sm text-gray-600 mx-2">RET</p>
-          <p className="text-sm text-gray-600 mx-2">WET</p>
+          <p className="hidden md:block text-sm  mx-2">NBST</p>
+          <p className="hidden md:block text-sm text-gray-600 mx-2">EFT</p>
+          <p className="hidden md:block text-sm text-gray-600 mx-2">WPCT</p>
+          <p className="hidden md:block text-sm text-gray-600 mx-2">RET</p>
+          <p className="hidden md:block text-sm text-gray-600 mx-2">WET</p>
         </div>
         <div className="border-[1px] border-gray-600 my-2"></div>
 
@@ -92,7 +92,7 @@ function MarketOverView() {
           <p className="inline-block max-sm:text-sm">
             Get in depth charts in Trade
           </p>
-          <button className="px-3 py-1 block bg-[#2AB42A] text-black rounded">
+          <button className="px-3 py-1 block bg-[#2AB42A]  rounded">
             Trade
           </button>
         </div>

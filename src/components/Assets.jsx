@@ -33,7 +33,7 @@ function Assets() {
     <>
       <div className="text-white ml-7">Assets</div>
 
-      <div className="flex flex-col md:flex-row gap-10 m-7">
+      <div className="flex flex-col lg:flex-row gap-10 m-7">
         {data.map((card, index) => (
           <div
             key={card.code}
